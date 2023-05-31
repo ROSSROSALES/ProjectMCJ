@@ -1,0 +1,11 @@
+C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\bin\Debug\ProjectMCJ.exe.config
+C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\bin\Debug\ProjectMCJ.exe
+C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\bin\Debug\ProjectMCJ.pdb
+C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\obj\Debug\ProjectMCJ.csproj.AssemblyReference.cache
+C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\obj\Debug\ProjectMCJ.csproj.SuggestedBindingRedirects.cache
+C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\obj\Debug\ProjectMCJ.Form1.resources
+C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\obj\Debug\ProjectMCJ.Properties.Resources.resources
+C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\obj\Debug\ProjectMCJ.csproj.GenerateResource.cache
+C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\obj\Debug\ProjectMCJ.csproj.CoreCompileInputs.cache
+C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\obj\Debug\ProjectMCJ.exe
+C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\obj\Debug\ProjectMCJ.pdb
