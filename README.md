@@ -22,23 +22,36 @@ or
 - The application will still run if the current text file is removed (saves the most recent copy in memory)
 - If a new text file is added into the folder, the application will read the newest file
 
-##
-MVP    
-Initial Interface
+## MVP Walkthrough  
+1. Initial Interface
 
-![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/cc271616-2cd8-4753-a07a-3289c4f4248f)
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/cc271616-2cd8-4753-a07a-3289c4f4248f)  
 
-![Screenshot 2023-05-31 190925](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/f3a20747-dcde-44b0-b825-d49633df666d)
+2. Selecting Folder with Data
 
-![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/d568a58c-b1bd-4a22-b1ff-077ea2452a26)
+![Screenshot 2023-05-31 190925](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/f3a20747-dcde-44b0-b825-d49633df666d)  
 
-![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/9cd02e13-7a3e-4be3-943d-0c173ec9b293)
+3. Sample Data in the folder chosen
 
-![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/c1ef7938-671b-4576-a6fc-9cd0616d3c68)
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/d568a58c-b1bd-4a22-b1ff-077ea2452a26)  
+
+4. Inputting a LoadID and returning the Target
+
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/9cd02e13-7a3e-4be3-943d-0c173ec9b293)  
+
+5. If the LoadID is incorrect or does not exist, "Does Not exist" informs the user
+
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/c1ef7938-671b-4576-a6fc-9cd0616d3c68)  
+
+6. Here we test what happens when we update/modify a text file.  
+  sample2.txt is a copy of sample.txt  
+  In this screenshot, we update the sample2.txt with a new LoadID of "123456" (named for testing purposes)
 
 ![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/2fccd592-8ea3-4028-b9c4-c55a8fa16ea7)
 
-![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/bc895be5-d518-4115-9e79-097c5ef91d3d)
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/bc895be5-d518-4115-9e79-097c5ef91d3d)  
+
+7. When we delete a file, we can still run the application and search previously saved data  
 
 ![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/cd435b6c-34e1-4979-af5a-b16f234f2eca)
 
