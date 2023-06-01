@@ -95,8 +95,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Loads\sample.txt" />
-    <Content Include="Loads\sample2.txt" />
+    <Content Include="SampleData\sample.txt" />
+    <Content Include="SampleData\sample2.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
