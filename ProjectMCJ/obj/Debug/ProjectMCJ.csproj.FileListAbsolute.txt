@@ -1,1 +1,11 @@
-
+C:\src\ProjectMCJ\bin\Debug\ProjectMCJ.exe.config
+C:\src\ProjectMCJ\bin\Debug\ProjectMCJ.exe
+C:\src\ProjectMCJ\bin\Debug\ProjectMCJ.pdb
+C:\src\ProjectMCJ\obj\Debug\ProjectMCJ.csproj.AssemblyReference.cache
+C:\src\ProjectMCJ\obj\Debug\ProjectMCJ.csproj.SuggestedBindingRedirects.cache
+C:\src\ProjectMCJ\obj\Debug\ProjectMCJ.Form1.resources
+C:\src\ProjectMCJ\obj\Debug\ProjectMCJ.Properties.Resources.resources
+C:\src\ProjectMCJ\obj\Debug\ProjectMCJ.csproj.GenerateResource.cache
+C:\src\ProjectMCJ\obj\Debug\ProjectMCJ.csproj.CoreCompileInputs.cache
+C:\src\ProjectMCJ\obj\Debug\ProjectMCJ.exe
+C:\src\ProjectMCJ\obj\Debug\ProjectMCJ.pdb

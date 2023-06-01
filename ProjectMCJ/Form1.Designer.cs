@@ -28,80 +28,79 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.loadIDButton = new System.Windows.Forms.Button();
+            this.loadIDTextBox = new System.Windows.Forms.TextBox();
+            this.targetTextBox = new System.Windows.Forms.TextBox();
+            this.targetLabel = new System.Windows.Forms.Label();
+            this.selectFolderButton = new System.Windows.Forms.Button();
+            this.folderPathTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // loadIDButton
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Load ID";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.findTarget);
+            this.loadIDButton.Location = new System.Drawing.Point(12, 51);
+            this.loadIDButton.Name = "loadIDButton";
+            this.loadIDButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.loadIDButton.Size = new System.Drawing.Size(91, 23);
+            this.loadIDButton.TabIndex = 0;
+            this.loadIDButton.Text = "Load ID";
+            this.loadIDButton.UseVisualStyleBackColor = true;
+            this.loadIDButton.Click += new System.EventHandler(this.findTarget);
             // 
-            // textBox1
+            // loadIDTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(93, 14);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(164, 20);
-            this.textBox1.TabIndex = 1;
+            this.loadIDTextBox.Location = new System.Drawing.Point(109, 53);
+            this.loadIDTextBox.Name = "loadIDTextBox";
+            this.loadIDTextBox.Size = new System.Drawing.Size(225, 20);
+            this.loadIDTextBox.TabIndex = 1;
             // 
-            // textBox2
+            // targetTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(93, 40);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(164, 20);
-            this.textBox2.TabIndex = 2;
+            this.targetTextBox.Location = new System.Drawing.Point(110, 79);
+            this.targetTextBox.Name = "targetTextBox";
+            this.targetTextBox.ReadOnly = true;
+            this.targetTextBox.Size = new System.Drawing.Size(224, 20);
+            this.targetTextBox.TabIndex = 2;
             // 
-            // label1
+            // targetLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(49, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Target";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.targetLabel.AutoSize = true;
+            this.targetLabel.Location = new System.Drawing.Point(66, 82);
+            this.targetLabel.Name = "targetLabel";
+            this.targetLabel.Size = new System.Drawing.Size(38, 13);
+            this.targetLabel.TabIndex = 3;
+            this.targetLabel.Text = "Target";
+            this.targetLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button2
+            // selectFolderButton
             // 
-            this.button2.Location = new System.Drawing.Point(13, 111);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.selectFolderPath);
+            this.selectFolderButton.Location = new System.Drawing.Point(12, 12);
+            this.selectFolderButton.Name = "selectFolderButton";
+            this.selectFolderButton.Size = new System.Drawing.Size(91, 23);
+            this.selectFolderButton.TabIndex = 4;
+            this.selectFolderButton.Text = "Select Folder";
+            this.selectFolderButton.UseVisualStyleBackColor = true;
+            this.selectFolderButton.Click += new System.EventHandler(this.selectFolderPath);
             // 
-            // textBox3
+            // folderPathTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(95, 113);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(224, 20);
-            this.textBox3.TabIndex = 5;
-            this.textBox3.Text = "";
+            this.folderPathTextBox.Location = new System.Drawing.Point(109, 14);
+            this.folderPathTextBox.Name = "folderPathTextBox";
+            this.folderPathTextBox.ReadOnly = true;
+            this.folderPathTextBox.Size = new System.Drawing.Size(224, 20);
+            this.folderPathTextBox.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(472, 269);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.folderPathTextBox);
+            this.Controls.Add(this.selectFolderButton);
+            this.Controls.Add(this.targetLabel);
+            this.Controls.Add(this.targetTextBox);
+            this.Controls.Add(this.loadIDTextBox);
+            this.Controls.Add(this.loadIDButton);
             this.Name = "Form1";
             this.Text = "MCJ Project";
             this.ResumeLayout(false);
@@ -111,12 +110,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button loadIDButton;
+        private System.Windows.Forms.TextBox loadIDTextBox;
+        private System.Windows.Forms.TextBox targetTextBox;
+        private System.Windows.Forms.Label targetLabel;
+        private System.Windows.Forms.Button selectFolderButton;
+        private System.Windows.Forms.TextBox folderPathTextBox;
     }
 }
 

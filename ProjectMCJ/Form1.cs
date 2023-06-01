@@ -33,17 +33,17 @@ namespace ProjectMCJ
             storeNewestTextFile();
             MapLoadTarget();
 
-            string userInput = textBox1.Text;
+            string userInput = loadIDTextBox.Text;
 
             if (LoadTargetMap.ContainsKey(userInput))
             {
                 Console.WriteLine(userInput);
                 Console.WriteLine(LoadTargetMap[userInput]);
-                textBox2.Text = LoadTargetMap[userInput];
+                targetTextBox.Text = LoadTargetMap[userInput];
             }
-            else
+            if (!LoadTargetMap.ContainsKey(userInput))
             {
-                textBox2.Text = "Does not Exist";
+                targetTextBox.Text = "Does Not Exist";
             }
         }
 
@@ -108,12 +108,16 @@ namespace ProjectMCJ
             }
         }
 
+        /// <summary>
+        /// select folder with data
+        /// updates which folder the application is searching for text files
+        /// </summary>
         private void selectFolderPath(object sender, EventArgs e)
         {
             using (FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog())
             {
-                // Set the initial directory (optional)
-                folderBrowserDialog.SelectedPath = @"C:\path\to\default\folder";
+                // Set the initial directory
+                folderBrowserDialog.SelectedPath = @"C:";
 
                 // Show the folder selection dialog
                 DialogResult result = folderBrowserDialog.ShowDialog();
@@ -121,9 +125,8 @@ namespace ProjectMCJ
                 // Check if the user selected a folder
                 if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowserDialog.SelectedPath))
                 {
-                    
                     directoryPath = folderBrowserDialog.SelectedPath;
-                    textBox3.Text = directoryPath;
+                    folderPathTextBox.Text = directoryPath;
                 }
             }
         }
