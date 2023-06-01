@@ -35,3 +35,10 @@ MVP
 
 ![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/c1ef7938-671b-4576-a6fc-9cd0616d3c68)
 
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/2fccd592-8ea3-4028-b9c4-c55a8fa16ea7)
+
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/bc895be5-d518-4115-9e79-097c5ef91d3d)
+
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/cd435b6c-34e1-4979-af5a-b16f234f2eca)
+
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/e97e88c3-9736-46da-a46b-c23a543911df)
