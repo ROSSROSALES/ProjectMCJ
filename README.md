@@ -23,7 +23,8 @@ or
 - If a new text file is added into the folder, the application will read the newest file
 
 ##
-MVP
+MVP    
+Initial Interface
 
 ![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/cc271616-2cd8-4753-a07a-3289c4f4248f)
 
