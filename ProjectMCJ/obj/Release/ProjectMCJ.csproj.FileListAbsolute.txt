@@ -9,3 +9,14 @@ C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\obj\Release\ProjectMCJ.csproj.
 C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\obj\Release\ProjectMCJ.csproj.CoreCompileInputs.cache
 C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\obj\Release\ProjectMCJ.exe
 C:\Users\rosse\source\repos\ProjectMCJ\ProjectMCJ\obj\Release\ProjectMCJ.pdb
+C:\src\ProjectMCJ\bin\Release\ProjectMCJ.exe.config
+C:\src\ProjectMCJ\bin\Release\ProjectMCJ.exe
+C:\src\ProjectMCJ\bin\Release\ProjectMCJ.pdb
+C:\src\ProjectMCJ\obj\Release\ProjectMCJ.csproj.AssemblyReference.cache
+C:\src\ProjectMCJ\obj\Release\ProjectMCJ.csproj.SuggestedBindingRedirects.cache
+C:\src\ProjectMCJ\obj\Release\ProjectMCJ.Form1.resources
+C:\src\ProjectMCJ\obj\Release\ProjectMCJ.Properties.Resources.resources
+C:\src\ProjectMCJ\obj\Release\ProjectMCJ.csproj.GenerateResource.cache
+C:\src\ProjectMCJ\obj\Release\ProjectMCJ.csproj.CoreCompileInputs.cache
+C:\src\ProjectMCJ\obj\Release\ProjectMCJ.exe
+C:\src\ProjectMCJ\obj\Release\ProjectMCJ.pdb

@@ -34,6 +34,7 @@
             this.targetLabel = new System.Windows.Forms.Label();
             this.selectFolderButton = new System.Windows.Forms.Button();
             this.folderPathTextBox = new System.Windows.Forms.TextBox();
+            this.loadIDLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // loadIDButton
@@ -53,6 +54,7 @@
             this.loadIDTextBox.Name = "loadIDTextBox";
             this.loadIDTextBox.Size = new System.Drawing.Size(225, 20);
             this.loadIDTextBox.TabIndex = 1;
+            this.loadIDTextBox.TextChanged += new System.EventHandler(this.loadIDTextBox_TextChanged);
             // 
             // targetTextBox
             // 
@@ -90,11 +92,21 @@
             this.folderPathTextBox.Size = new System.Drawing.Size(224, 20);
             this.folderPathTextBox.TabIndex = 5;
             // 
+            // loadIDLabel
+            // 
+            this.loadIDLabel.AutoSize = true;
+            this.loadIDLabel.Location = new System.Drawing.Point(340, 56);
+            this.loadIDLabel.Name = "loadIDLabel";
+            this.loadIDLabel.Size = new System.Drawing.Size(159, 13);
+            this.loadIDLabel.TabIndex = 6;
+            this.loadIDLabel.Text = "Input must be 9 characters long.";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(472, 269);
+            this.ClientSize = new System.Drawing.Size(528, 269);
+            this.Controls.Add(this.loadIDLabel);
             this.Controls.Add(this.folderPathTextBox);
             this.Controls.Add(this.selectFolderButton);
             this.Controls.Add(this.targetLabel);
@@ -116,6 +128,7 @@
         private System.Windows.Forms.Label targetLabel;
         private System.Windows.Forms.Button selectFolderButton;
         private System.Windows.Forms.TextBox folderPathTextBox;
+        private System.Windows.Forms.Label loadIDLabel;
     }
 }
 
