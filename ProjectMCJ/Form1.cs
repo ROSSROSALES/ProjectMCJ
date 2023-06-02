@@ -98,7 +98,12 @@ namespace ProjectMCJ
                         Console.WriteLine(values);
                     {
                         string LoadID = values[0].Trim();
-                        string Target = values[1].Trim();
+                        string Target = "Clearing Station";
+
+                        if (values[1].Trim().Length == 3) // This is with the assumption that Target locations have length 3. ie C01 or B02
+                        {
+                            Target = values[1].Trim();
+                        }
 
                         LoadTargetMap[LoadID] = Target;
                     }
