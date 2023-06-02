@@ -68,10 +68,12 @@ namespace ProjectMCJ
                     fileContent = new List<string>(linesInFile);
 
                     Console.WriteLine($"Newest file: {Path.GetFileName(newestFilePath)}");
+                    folderPathLabel.Text = "";
                 }
                 else
                 {
                     Console.WriteLine("No .txt files found in the directory.");
+                    folderPathLabel.Text = "No .txt files found in the directory.";
                 }
             }
             catch (Exception ex)
@@ -154,8 +156,6 @@ namespace ProjectMCJ
         /// <summary>
         /// valid input must be x characters long
         /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
         private bool IsValidInput(string input)
         {
             return !string.IsNullOrEmpty(input) && input.Length == 20;

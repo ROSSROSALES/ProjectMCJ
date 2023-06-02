@@ -35,11 +35,12 @@
             this.selectFolderButton = new System.Windows.Forms.Button();
             this.folderPathTextBox = new System.Windows.Forms.TextBox();
             this.loadIDLabel = new System.Windows.Forms.Label();
+            this.folderPathLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // loadIDButton
             // 
-            this.loadIDButton.Location = new System.Drawing.Point(12, 51);
+            this.loadIDButton.Location = new System.Drawing.Point(12, 66);
             this.loadIDButton.Name = "loadIDButton";
             this.loadIDButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.loadIDButton.Size = new System.Drawing.Size(91, 23);
@@ -50,7 +51,7 @@
             // 
             // loadIDTextBox
             // 
-            this.loadIDTextBox.Location = new System.Drawing.Point(109, 53);
+            this.loadIDTextBox.Location = new System.Drawing.Point(109, 68);
             this.loadIDTextBox.Name = "loadIDTextBox";
             this.loadIDTextBox.Size = new System.Drawing.Size(225, 20);
             this.loadIDTextBox.TabIndex = 1;
@@ -58,7 +59,7 @@
             // 
             // targetTextBox
             // 
-            this.targetTextBox.Location = new System.Drawing.Point(110, 79);
+            this.targetTextBox.Location = new System.Drawing.Point(110, 94);
             this.targetTextBox.Name = "targetTextBox";
             this.targetTextBox.ReadOnly = true;
             this.targetTextBox.Size = new System.Drawing.Size(224, 20);
@@ -67,7 +68,7 @@
             // targetLabel
             // 
             this.targetLabel.AutoSize = true;
-            this.targetLabel.Location = new System.Drawing.Point(66, 82);
+            this.targetLabel.Location = new System.Drawing.Point(66, 97);
             this.targetLabel.Name = "targetLabel";
             this.targetLabel.Size = new System.Drawing.Size(38, 13);
             this.targetLabel.TabIndex = 3;
@@ -95,17 +96,27 @@
             // loadIDLabel
             // 
             this.loadIDLabel.AutoSize = true;
-            this.loadIDLabel.Location = new System.Drawing.Point(340, 56);
+            this.loadIDLabel.Location = new System.Drawing.Point(340, 71);
             this.loadIDLabel.Name = "loadIDLabel";
-            this.loadIDLabel.Size = new System.Drawing.Size(159, 13);
+            this.loadIDLabel.Size = new System.Drawing.Size(165, 13);
             this.loadIDLabel.TabIndex = 6;
             this.loadIDLabel.Text = "Input must be 20 characters long.";
+            // 
+            // folderPathLabel
+            // 
+            this.folderPathLabel.AutoSize = true;
+            this.folderPathLabel.Location = new System.Drawing.Point(109, 41);
+            this.folderPathLabel.Name = "folderPathLabel";
+            this.folderPathLabel.Size = new System.Drawing.Size(35, 13);
+            this.folderPathLabel.TabIndex = 7;
+            this.folderPathLabel.Text = "";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(528, 269);
+            this.Controls.Add(this.folderPathLabel);
             this.Controls.Add(this.loadIDLabel);
             this.Controls.Add(this.folderPathTextBox);
             this.Controls.Add(this.selectFolderButton);
@@ -129,6 +140,7 @@
         private System.Windows.Forms.Button selectFolderButton;
         private System.Windows.Forms.TextBox folderPathTextBox;
         private System.Windows.Forms.Label loadIDLabel;
+        private System.Windows.Forms.Label folderPathLabel;
     }
 }
 
