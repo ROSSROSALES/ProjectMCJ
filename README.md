@@ -28,6 +28,15 @@ Label displays incorrect character length. Load ID textbox displays red until ap
 ![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/fe7efda6-6561-4b83-946f-add6d792312b)
 ![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/b58f5fa7-351b-4d21-8ef3-b74531554b75)
 
+### Select Folder User feedback  
+Label displays if a text file is found in the current directory when Load ID button is pressed.  
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/0cd73966-d518-4823-b917-58369bad457c)  
+
+Otherwise, it is left blank if text file is found  
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/9e204416-0378-45de-9984-7bb3f0ca7762)
+
+
+
 
 
 
