@@ -13,7 +13,7 @@ or
 3. Run ProjectMCJ.exe
 
 ## Using App
-1. Choose folder that contains the text files with the information about delivery station loads
+1. Choose folder that contains the text files with the information about delivery station loads (try the SampleData folder in the root of this repo)
 2. Input LoadID into textbox
 3. Press LoadID button to retrieve Target location
 
