@@ -131,15 +131,18 @@ namespace ProjectMCJ
             }
         }
 
+        /// <summary>
+        /// text is red until 20 characters is reached
+        /// updates the label to inform user
+        /// </summary>
         private void loadIDTextBox_TextChanged(object sender, EventArgs e)
         {
             string input = loadIDTextBox.Text;
 
-            // Perform input validation
             if (!IsValidInput(input))
             {
                 loadIDTextBox.ForeColor = Color.Red;
-                loadIDLabel.Text = "Input must be 9 characters long.";
+                loadIDLabel.Text = "Input must be 20 characters long.";
             }
             else
             {
@@ -148,11 +151,14 @@ namespace ProjectMCJ
             }
         }
 
+        /// <summary>
+        /// valid input must be x characters long
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         private bool IsValidInput(string input)
         {
-            // Add your custom validation logic here
-            // Return true if the input is valid, otherwise false
-            return !string.IsNullOrEmpty(input) && input.Length == 9;
+            return !string.IsNullOrEmpty(input) && input.Length == 20;
         }
 
     }

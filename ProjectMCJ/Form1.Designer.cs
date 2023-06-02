@@ -99,7 +99,7 @@
             this.loadIDLabel.Name = "loadIDLabel";
             this.loadIDLabel.Size = new System.Drawing.Size(159, 13);
             this.loadIDLabel.TabIndex = 6;
-            this.loadIDLabel.Text = "Input must be 9 characters long.";
+            this.loadIDLabel.Text = "Input must be 20 characters long.";
             // 
             // Form1
             // 
