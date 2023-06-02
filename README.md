@@ -23,6 +23,11 @@ or
 - If a new text file is added into the folder, the application will read the newest file
 
 ## Updates / Improvements (Newest to Oldest)
+### Default to Clearing Station
+If there is no Target location found based on Load ID, we return the load to the clearing station  
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/1ff5da3f-cfd4-4d39-83b0-af5d52800bbb)
+
+
 ### Load ID User feedback  
 Label displays incorrect character length. Load ID textbox displays red until appropriate length is reached.  
 ![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/fe7efda6-6561-4b83-946f-add6d792312b)
