@@ -25,8 +25,8 @@ or
 ## Updates / Improvements (Newest to Oldest)
 ### Load ID User feedback  
 Label displays incorrect character length. Load ID textbox displays red until appropriate length is reached.  
-![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/3e842dad-abf5-4d63-b02e-a0e3550341b1)
-![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/5812f53c-641d-41ff-b3f0-aab984fcaf54)
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/fe7efda6-6561-4b83-946f-add6d792312b)
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/b58f5fa7-351b-4d21-8ef3-b74531554b75)
 
 
 
