@@ -22,6 +22,15 @@ or
 - The application will still run if the current text file is removed (saves the most recent copy in memory)
 - If a new text file is added into the folder, the application will read the newest file
 
+## Updates / Improvements (Newest to Oldest)
+### Load ID User feedback  
+Label displays incorrect character length. Load ID textbox displays red until appropriate length is reached.  
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/3e842dad-abf5-4d63-b02e-a0e3550341b1)
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/5812f53c-641d-41ff-b3f0-aab984fcaf54)
+
+
+
+
 ## MVP Walkthrough  
 1. Initial Interface
 
