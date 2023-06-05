@@ -58,7 +58,9 @@ Otherwise, it is left blank if text file is found
 
 ![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/d568a58c-b1bd-4a22-b1ff-077ea2452a26)  
 
-4. Inputting a LoadID and returning the Target
+4. Inputting a LoadID and returning the Target  
+Data Format  
+![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/644d7021-1055-4404-a72a-3706735c93c9)
 
 ![image](https://github.com/ROSSROSALES/ProjectMCJ/assets/52366381/9cd02e13-7a3e-4be3-943d-0c173ec9b293)  
 
